@@ -14,12 +14,12 @@ const addItem = document.querySelector('.title');
 addItem.style.fontFamily = 'bold';
 addItem.style.color ='green';
 
-const items = document.getElementsByClassName('list-group-item');
+const li = document.getElementsByTagName('li');
 
-items[1].style.backgroundColor = "green";
+li[1].style.backgroundColor = "green";
 
-for(let i =0; i<items.length; i++){
-    items[i].style.fontWeight = "bold";
+for(let i =0; i<li.length; i++){
+    li[i].style.fontWeight = "bold";
 }
 
 
