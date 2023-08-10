@@ -54,7 +54,7 @@ btn.addEventListener('click', e => {
 
     li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
 
-    userList.appendChild(li);
+    userList.appendChild(li); 
 
     // Clear fields
     nameInput.value = '';
